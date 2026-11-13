@@ -1,0 +1,14 @@
+{
+  "name": "my-project-toolkit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Practical Node.js utilities",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
